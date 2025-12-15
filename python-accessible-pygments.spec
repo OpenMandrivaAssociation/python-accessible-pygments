@@ -10,6 +10,7 @@ BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
 BuildRequires:	python%{pyver}dist(hatchling)
+BuildRequires:	python%{pyver}dist(hatch-fancy-pypi-readme)
 
 %description
 A collection of accessible pygments styles
