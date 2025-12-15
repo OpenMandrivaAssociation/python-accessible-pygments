@@ -9,6 +9,7 @@ Group:		Development/Python
 BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
+BuildRequires:	python%{pyver}dist(hatchling)
 
 %description
 A collection of accessible pygments styles
